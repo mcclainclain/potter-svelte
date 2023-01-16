@@ -9,7 +9,13 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar class="text-2xl">
-			<a href="/">Harry Potter Data</a>
+			<svelte:fragment slot="lead"
+				><a href="/" class="ml-3 hover:font-bold">Harry Potter Data</a></svelte:fragment
+			>
+
+			<svelte:fragment slot="trail"
+				><a href="/about" class="btn bg-primary-500 font-20 text-xl mr-3">About</a></svelte:fragment
+			>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
