@@ -1,38 +1,42 @@
-# create-svelte
+# All About Harry Potter
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## About
 
-## Creating a project
+This is a side project I did to help me learn how to use the new SvelteKit framework to develop responsive web applications. I am still learning and am going to expand on this project more, and possibly eventually deploy it.
 
-If you're seeing this, you've probably already done this step. Congrats!
+#### Tools
+- [SvelteKit](https://kit.svelte.dev/): A UI framework built on Svelte and Vite, allowing users to write neat components using their folder structure, along with simple HTML, CSS, and JavaScript.
+
+- [Harry Potter API](https://github.com/KostaSav/hp-api): The API that produces all characters, their attributes, and all the spells (to be added). The website for the API can be found [here](https://hp-api.onrender.com/).
+
+- [Skeleton](https://www.skeleton.dev/): Controls most of the styles from this page. It is a package currently in beta that combines [TailwindCSS](https://tailwindcss.com) and [Svelte](https://svelte.dev).
+
+### Try It
+
+First, lets clone this repository.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone "https://github.com/mcclainclain/potter-svelte"
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Then we need to install our packages with [npm](https://nodejs.org/en/download/) (node package manager).
 
 ```bash
-npm run dev
+npm install
+```
 
-# or start the server and open the app in a new browser tab
+This will install all the dependencies that this project needs.
+You can now edit all the Svelte files, and change them how you want.
+
+To open a server in your browser to observe changes you make:
+
+```bash
 npm run dev -- --open
 ```
 
-## Building
+### TODOs
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [X] add an about page
+- [ ] finish out full character pages
+- [ ] add search/filter functionality
+- [ ] implement more data from other Harry Potter APIs
