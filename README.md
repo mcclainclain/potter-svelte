@@ -4,7 +4,7 @@
 
 This is a side project I did to help me learn how to use the new SvelteKit framework to develop responsive web applications. I am still learning and am going to expand on this project more, and possibly eventually deploy it.
 
-#### Tools
+### Tools
 - [SvelteKit](https://kit.svelte.dev/): A UI framework built on Svelte and Vite, allowing users to write neat components using their folder structure, along with simple HTML, CSS, and JavaScript.
 
 - [Harry Potter API](https://github.com/KostaSav/hp-api): The API that produces all characters, their attributes, and all the spells (to be added). The website for the API can be found [here](https://hp-api.onrender.com/).
