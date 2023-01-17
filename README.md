@@ -40,3 +40,4 @@ npm run dev -- --open
 - [ ] finish out full character pages
 - [ ] add search/filter functionality
 - [ ] implement more data from other Harry Potter APIs
+- [ ] add some more styling (drop shadows??)
