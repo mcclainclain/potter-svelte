@@ -43,24 +43,9 @@
 		{#if char.hogwartsStudent}
 			<h4>Student @ Hogwarts</h4>
 		{/if}
-		{#if char.house == 'Gryffindor'}
+		{#if char.house != ''}
 			<h4 class="student">
-				Gryffindor <img src="src/gryffindor.svg" alt="Gryffindor" class="student w-4" />
-			</h4>
-		{/if}
-		{#if char.house == 'Hufflepuff'}
-			<h4 class="student">
-				Hufflepuff <img src="src/hufflepuff.svg" alt="Hufflepuff" class="student w-4" />
-			</h4>
-		{/if}
-		{#if char.house == 'Ravenclaw'}
-			<h4 class="student">
-				Ravenclaw <img src="src/ravenclaw.svg" alt="Ravenclaw" class="student w-4" />
-			</h4>
-		{/if}
-		{#if char.house == 'Slytherin'}
-			<h4 class="student">
-				Slytherin <img src="src/slytherin.svg" alt="Slytherin" class="student w-4" />
+				{char.house} <img src="src/{char.house}.svg" alt={char.house} class="student w-4" />
 			</h4>
 		{/if}
 	</div>
