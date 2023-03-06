@@ -1,7 +1,7 @@
 <script lang="ts">
 	// @ts-nocheck
 
-	import Character from '$lib/components/Character.svelte';
+	import Character  from '$lib/components/Character.svelte';
 	export let data;
 	let id = data.par.id;
 	let chars = data.characters;

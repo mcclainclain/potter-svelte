@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	import '@skeletonlabs/skeleton/themes/theme-sahara.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
@@ -9,7 +10,8 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar class="text-2xl">
-			<svelte:fragment slot="lead"><a href="/" class="ml-3">Harry Potter Data</a></svelte:fragment>
+			<svelte:fragment slot="lead"><a href="/" class="ml-3 font-bold">Home</a></svelte:fragment>
+			<svelte:fragment><a href="/spells" class="ml-3 font-bold">Spells</a></svelte:fragment>
 			<svelte:fragment slot="trail"
 				><a href="/about" class="btn bg-primary-500 font-20 text-xl mr-3">About</a></svelte:fragment
 			>

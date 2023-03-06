@@ -34,7 +34,7 @@
 		{#if char.gender != ''}
 			<h4>{capitalize(char.gender)}</h4>
 		{/if}
-		{#if char.dateOfBirth != ''}
+		{#if char.dateOfBirth != null}
 			<h4>&#x1F382 : {char.dateOfBirth}</h4>
 		{/if}
 		{#if char.hogwartsStaff}
