@@ -39,7 +39,7 @@ npm run dev -- --open
 
 - [X] add an about page
 - [X] finish out full character pages
-- [ ] add spells
+- [X] add spells
 - [ ] add search/filter functionality
 - [ ] implement more data from other Harry Potter APIs
 - [ ] add some more styling (drop shadows??)
