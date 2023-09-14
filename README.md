@@ -4,6 +4,9 @@
 
 This is a side project I did to help me learn how to use the new SvelteKit framework to develop responsive web applications. I am still learning and am going to expand on this project more, and possibly eventually deploy it.
 
+
+![Demo Picture]("./src/hp.png")
+
 ### Tools
 
 - [SvelteKit](https://kit.svelte.dev/): A UI framework built on Svelte and Vite, allowing users to write neat components using their folder structure, along with simple HTML, CSS, and JavaScript.
