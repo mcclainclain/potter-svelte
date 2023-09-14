@@ -5,7 +5,7 @@
 This is a side project I did to help me learn how to use the new SvelteKit framework to develop responsive web applications. I am still learning and am going to expand on this project more, and possibly eventually deploy it.
 
 
-![Demo Picture]("hp.png")
+![Demo Picture](hp.png)
 
 ### Tools
 
